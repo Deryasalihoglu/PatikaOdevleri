@@ -27,7 +27,8 @@ public class Manav {
         double patlican = input.nextDouble();
 
         double total = armut *2.14 + elma * 3.67 + domates * 1.11 + muz * 0.95 + patlican * 5.00;  
-        System.out.println("Toplam tutar: " + total + "TL");        
+        System.out.println("Toplam tutar: " + total + "TL");     
+        input.close();   
 
 
         }
