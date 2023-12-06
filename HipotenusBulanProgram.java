@@ -17,5 +17,7 @@ class HipotenusBulanProgram {
 
         double c = Math.pow(Math.pow(a, 2) + Math.pow(b,2),0.5);
         System.out.print("Bu üçgenin hipotenüsü " + c +"'tir.");
+
+        input.close();
     }
 }

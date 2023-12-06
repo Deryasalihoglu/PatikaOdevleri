@@ -31,5 +31,7 @@ public class NotOrtalamasiHesaplayanProgram{
          
         String sonuc = (ortalama >= 60) ? "Geçtiniz" : "Kaldınız";
         System.out.println(sonuc);
+
+        input.close();
     }
 }

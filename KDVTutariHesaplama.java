@@ -27,5 +27,7 @@ public class KDVTutariHesaplama {
         double kdvTutari = (0 < fiyat && fiyat <= 1000) ? azKDV : fazlaKDV ;
         System.out.println("ürünün KDV tutarı:" + kdvTutari);
 
+        input.close();
+
     }
 }
