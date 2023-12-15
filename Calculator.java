@@ -16,7 +16,7 @@ public class Calculator {
         System.out.println("Hangi işlemi yapmak istiyorsunuz? \nToplama ise 1 \nÇıkarma ise 2" 
         + " \nÇarpma ise 3 \nBölme ise 4'ü tuşlayınız.");
         choice = input.nextInt();
-        
+
         switch(choice){
             case 1: System.out.println("sonuç =" + (number1 + number2));
             break;
