@@ -31,7 +31,6 @@ public class UserLog_In {
                 else {
                     password = newPassword;
                     System.out.println("Yeni şifreniz kaydedildi!");
-                    System.out.println(password);
                 }
             } else if (choice.equals(no)) {
                 // Nothing to do
@@ -41,5 +40,6 @@ public class UserLog_In {
         } else {
             System.out.println("Yanlış bilgi girdiniz.");
         }
+        input.close();
     }
 }
