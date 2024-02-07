@@ -127,7 +127,7 @@ public class ZodiacSign {
           control = false;
     }
     if(control){
-        System.out.println("Your Zodiac Sign is " + sign);
+        System.out.println("Your zodiac sign is " + sign);
     }
     input.close();
   }
