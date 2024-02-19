@@ -44,6 +44,7 @@ public class FlightTicketPrice {
             double secDiscount = price * 0.20;
             price -= secDiscount;
             System.out.println("Total price: " + (2 * price));
+            break;
 
             default:
             System.out.println("Please select the travel type correctly: (1 -> One-way / 2 -> Round trip)");
